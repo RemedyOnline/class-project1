@@ -1,0 +1,95 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 1.5rem; */
+}
+
+body {
+  color: white;
+  background-image: url(./assets/images/kidLearing.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 1.1rem;
+}
+.contactSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.contentOnLeft {
+  display: flex;
+  gap: 30px;
+}
+
+.contentOnRight {
+  display: flex;
+  gap: 30px;
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainNav ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.mainNav button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+
+a {
+  color: greenyellow;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  gap: 750px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+.heroText {
+  font-size: 1.5rem;
+  
+}
+
+.heroText h1 {
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+.heroText p {
+  margin-bottom: 30px;
+  width: 400px;
+  line-height: 2.2rem;
+}
+
+.heroText button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+}
