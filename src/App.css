@@ -3,26 +3,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-size: 1.5rem; */
-}
-
-body {
-  color: white;
-  background-image: url(./assets/images/kidLearing.jpg);
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 nav {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   font-size: 1.1rem;
+  position: fixed;
+  width: 100%;
+  color: white;
+  padding: 15px 0;
 }
 .contactSection {
   display: flex;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .contentOnLeft {
@@ -55,7 +49,7 @@ nav {
 }
 
 a {
-  color: greenyellow;
+  color: rgb(47, 255, 227);
 }
 
 a:hover {
@@ -63,26 +57,36 @@ a:hover {
 }
 
 .heroSection {
+  background-image: url(./assets/images/kidLearing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heroContent {
   display: flex;
-  justify-content: center;
-  gap: 750px;
-  height: 100%;
+  justify-content: start;
+  padding: 65px;
+  /* gap: 650px; */
+  height: 100vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   align-items: center;
+  color: white;
 }
+
 .heroText {
   font-size: 1.5rem;
-  
+  margin-right: 400px;
+  margin-top: 100px;
 }
 
 .heroText h1 {
-  margin-bottom: 30px;
+  margin: 20px 0 40px 0;
   width: 500px;
 }
 
 .heroText p {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   width: 400px;
   line-height: 2.2rem;
 }
@@ -92,4 +96,73 @@ a:hover {
   border: none;
   border-radius: 50px;
   font-size: 1rem;
+  
+}
+
+.heroButton button {
+  padding: 20px;
+  border-radius: 200px;
+  font-size: 1.2rem;
+  background-color: rgb(47, 255, 227);
+  outline: none;
+
+  margin-top: 100px;
+}
+
+button:hover {
+  text-decoration: underline;
+  background-color: #999;
+}
+
+.featuredItems {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: -20px;
+}
+
+.featuredItem1 {
+  padding: 30px;
+  width: 350px;
+  height: fit-content;
+  background-color: #7ac64d;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.featuredItem2 {
+  padding: 30px;
+  width: 350px;
+  height: fit-content;
+  background-color: #e66346;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.featuredItem3 {
+  padding: 30px;
+  width: 350px;
+  height: fit-content;
+  background-color: #337ab7;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.featureIcon {
+  /* padding: 30px;
+  background-color: #9999994b;
+  border-radius: 50px; */
+  margin-bottom: 30px;
+}
+
+.featuredItem1 h2,
+.featuredItem2 h2,
+.featuredItem3 h2 {
+  margin-top: 20px;
+}
+
+.featuredItem1 p,
+.featuredItem2 p,
+.featuredItem3 p {
+  margin-top: 20px;
 }
