@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Footer from './components/Footer';
 import { createBrowserRouter } from 'react-router-dom';
-
+import Offers from './components/Offers';
 
 function App() {
 
@@ -14,6 +14,7 @@ function App() {
       <Hero/>
       <Features/>
       <Footer/>
+      <Offers/>
     </div>
     
   );
